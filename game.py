@@ -41,7 +41,29 @@ trivia = [
         options: ['He did not', 'To be cool', 'To ride his horse']
 
     },
+    {
+        'question': 'What does Mayor Lewis want to keep a secret?'
+        'answer': 'his undies',
+        options: ['Tax evasion', 'Embezzling town money', 'His undies']
+
+    },
+
 ]
+
+def ask_q (question, answer option):
+    is_correct = False;
+    num_correct = 0
+    #Check if correct
+
+    #Take user input
+    return input("What is the answer?: ")
+if input == answer:
+    is_correct = true
+    num_correct+
+    #Check if user input matches correct answer
+    
+
+    
 
 
 # Define functions to ask the questions and compute the score
