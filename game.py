@@ -56,12 +56,15 @@ def ask_q (question, answer, option):
     #2. Display the options
     print(option)
     #3. Take user input
-    user_answer = input
+    user_answer = input(question)
     #4. Check if user input matches correct answer
-if user_answer = answer:
-    
-    
+
     return is_correct
+if (user_answer == answer):
+ print("Correct! Onto the the next question:")
+
+
+    
     
 
     
