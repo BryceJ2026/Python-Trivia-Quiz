@@ -50,22 +50,21 @@ trivia = [
 ]
 
 def ask_q (question, answer, option):
-    is_correct = False;
+    is_correct = False
     #1. Display the questions
     print(question)
     #2. Display the options
     print(option)
     #3. Take user input
-    user_answer = input(question)
+    user_answer = input("Type your guess here:")
     #4. Check if user input matches correct answer
+    if (user_answer == answer):
+        print("Correct! Onto the the next question:")
+        is_correct = True
 
+
+    
     return is_correct
-if (user_answer == answer):
- print("Correct! Onto the the next question:")
-
-
-    
-    
 
     
 
